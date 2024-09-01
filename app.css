@@ -7,36 +7,45 @@
     src: url(fonts/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
 }
 
+:root{
+    --black:#000;
+    --white:#fff;
+    --salmon:#ed948a;
+    --dsalmon:#261614;
+    --cyan:#56e5e5;
+    --dcyan:#102323;
+}
+
 *::selection{
     background-color: rgb(236, 150, 141);
 }
 
 body[theme="black"]{
-    background-color: black;
+    background-color: var(--black);
 }
 body[theme="black"] .section{
-    color: white;
+    color: var(--white);
 }
 
 
 body[theme="salman"]{
-    background-color: rgb(237, 148, 138);
+    background-color: var(--salmon);
 }
 body[theme="salman"] .section{
-    color: rgb(38, 22, 20);
+    color: var(--dsalmon);
 }
 
 
 body[theme="cyan"]{
-    background-color: rgb(86, 229, 229);
+    background-color: var(--cyan);
 }
 body[theme="cyan"] .section{
-    color: rgb(16, 35, 35);
+    color: var(--dcyan);
 }
 
 body[theme="white"]{
-    background-color: white;
+    background-color: var(--white);
 }
 body[theme="white"] .section{
-    color: black;
+    color: var(--black);
 }
