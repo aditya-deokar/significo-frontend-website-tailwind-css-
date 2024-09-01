@@ -1,0 +1,42 @@
+@font-face {
+    font-family: PPNue;
+    src: url(fonts/659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
+}
+@font-face {
+    font-family: PPNue2;
+    src: url(fonts/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+}
+
+*::selection{
+    background-color: rgb(236, 150, 141);
+}
+
+body[theme="black"]{
+    background-color: black;
+}
+body[theme="black"] .section{
+    color: white;
+}
+
+
+body[theme="salman"]{
+    background-color: rgb(237, 148, 138);
+}
+body[theme="salman"] .section{
+    color: rgb(38, 22, 20);
+}
+
+
+body[theme="cyan"]{
+    background-color: rgb(86, 229, 229);
+}
+body[theme="cyan"] .section{
+    color: rgb(16, 35, 35);
+}
+
+body[theme="white"]{
+    background-color: white;
+}
+body[theme="white"] .section{
+    color: black;
+}
