@@ -19,6 +19,9 @@
 .vid{
     clip-path: circle(var(--clip) at 50% 50%);
 }
+.title{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
 
 *::selection{
     background-color: rgb(236, 150, 141);

@@ -1,8 +1,8 @@
 function homePageAnimation() {
   gsap.set(".marqueeContainer", {
-    scale: "4",
-    x: 400,
-    y: -200
+    scale: "5",
+    x: 560,
+    y: -240
 
   })
 
@@ -22,9 +22,13 @@ function homePageAnimation() {
   tl.to(".vid", {
     '--clip': "0%",
     ease: Power2,
-  });
+  },'b');
+  tl.to(".title", {
+    '--clip': "0%",
+    ease: Power2,
+  },'b');
   tl.to(".marqueeContainer", {
-    delay: -.15,
+    delay: -.24,
     scale: 1,
     x: 0,
     y: 0,
