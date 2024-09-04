@@ -6,6 +6,13 @@ function homePageAnimation() {
 
   })
 
+  gsap.from(".title",{
+    y:200,
+    opacity:0,
+    ease:Power2,
+    duration:1.4
+  })
+
 
   var tl = gsap.timeline({
     scrollTrigger: {
@@ -133,8 +140,53 @@ function revivePageAnimation(){
 
 }
 
+function explorePageAnimation(){
+  gsap.to(".SecondCon , .firstCon",{
+    scrollTrigger:{
+      start:"top 40%",
+      end:"bottom bottom",
+      trigger:".explore",
+      scroller:"body",
+      // markers:true,
+      scrub:true,
+    },
+    y:0,
+    ease:Power2
 
+  })
+}
+
+
+function backgroundChangingAnimation(){
+  document.querySelectorAll(".section").forEach(function(elem){
+    ScrollTrigger.create({
+      trigger:elem,
+    
+      start:"top 50%",
+      end:"bottom 50%",
+      // markers:true,
+
+      onEnter:function(){
+        document.body.setAttribute("theme",elem.dataset.color);
+      },
+      onEnterBack:function(){
+        document.body.setAttribute("theme",elem.dataset.color);
+      }
+
+    })
+  })
+}
+
+function locomotive(){
+  (function () {
+    const locomotiveScroll = new LocomotiveScroll();
+  })();
+}
+
+locomotive();
 homePageAnimation();
 realPageAnimation();
 teamPageAnimation();
 revivePageAnimation();
+explorePageAnimation();
+backgroundChangingAnimation();

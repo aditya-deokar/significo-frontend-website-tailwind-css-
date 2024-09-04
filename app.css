@@ -9,11 +9,15 @@
 
 :root{
     --black:#000;
-    --white:#fff;
-    --salmon:#ed948a;
-    --dsalmon:#261614;
+    --white:white;
+    --salman:#f49d93;
+    --dsalman:#261614;
     --cyan:#56e5e5;
     --dcyan:#102323;
+}
+
+body{
+    transition: background-color ease-in-out 0.5s;
 }
 
 .vid{
@@ -36,10 +40,10 @@ body[theme="black"] .section{
 
 
 body[theme="salman"]{
-    background-color: var(--salmon);
+    background-color: var(--salman);
 }
 body[theme="salman"] .section{
-    color: var(--dsalmon);
+    color: var(--dsalman);
 }
 
 
