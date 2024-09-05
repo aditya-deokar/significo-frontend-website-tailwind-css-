@@ -10,21 +10,23 @@
 :root{
     --black:#000;
     --white:white;
-    --salman:#f49d93;
+    --salman:#f3f9a7;
     --dsalman:#261614;
-    --cyan:#56e5e5;
+    --cyan:#78ffd6 ;
     --dcyan:#102323;
+    --orangeG:  linear-gradient(to right, #fdc830, #f37335);
 }
 
 body{
-    transition: background-color ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
 }
 
 .vid{
+    
     clip-path: circle(var(--clip) at 50% 50%);
 }
 .title{
-    clip-path: circle(var(--clip) at 50% 50%);
+    clip-path: circle(var(--clip) at 50% -25%);
 }
 
 *::selection{
@@ -43,6 +45,13 @@ body[theme="salman"]{
     background-color: var(--salman);
 }
 body[theme="salman"] .section{
+    color: var(--dsalman);
+}
+
+body[theme="orange"]{
+    background: var( --orangeG);
+}
+body[theme="orange"] .section{
     color: var(--dsalman);
 }
 

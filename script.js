@@ -111,9 +111,9 @@ function teamPageAnimation(){
 function revivePageAnimation(){
 
   var clutter="";
-  document.querySelector(".text-para").textContent.split("").forEach(function(elem){
+  document.querySelector(".text-para").textContent.split(" ").forEach(function(elem){
     
-      clutter+=`<span>${elem}</span>`
+      clutter+=`<span> ${elem}</span>`
     
   });
 
@@ -176,6 +176,8 @@ function backgroundChangingAnimation(){
     })
   })
 }
+
+
 
 function locomotive(){
   (function () {
