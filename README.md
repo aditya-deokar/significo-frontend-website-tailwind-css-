@@ -2,7 +2,7 @@
 
 Welcome to the **Significo Frontend Website** repository, developed using **Tailwind CSS**.
 
-![Website Demo](https://aditya-deokar.github.io/significo-frontend-website-tailwind-css-/)
+[Website Demo](https://aditya-deokar.github.io/significo-frontend-website-tailwind-css-/)
 
 ## Table of Contents
 - [Introduction](#introduction)
