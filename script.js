@@ -1,7 +1,7 @@
 function homePageAnimation() {
   gsap.set(".marqueeContainer", {
     scale: "5",
-    x: 560,
+    x: -70,
     y: -240
 
   })
