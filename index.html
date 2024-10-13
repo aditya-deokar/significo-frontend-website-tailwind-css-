@@ -524,9 +524,9 @@
         <!-- review page -->
         <div data-color="cyan" class="review section w-full h-screen relative flex items-center justify-center">
             <div
-                class="boxContainer w-10/12 h-[90%] flex flex-col items-center justify-between gap-10 overflow-hidden relative">
+                class="boxContainer max-sm:w-full max-sm:h-fit w-10/12 h-[90%] flex flex-col items-center justify-between gap-10 max-sm:gap-5 overflow-hidden relative">
                 <div class="boxBody w-3/4 h-4/5 border-2 border-zinc-700 flex flex-col items-center justify-evenly">
-                    <p class="text-para text-xl w-3/5 text-center">
+                    <p class="text-para max-sm:text-lg max-sm:p-2 max-sm:leading-1 max-sm:w-full text-xl w-3/5 text-center">
                         Working with Significo and their recommendation servic been a
                         game-changer for our occupational prevention efforts. Our
                         customers are extremely satisfied with the tool's impressive
@@ -547,8 +547,8 @@
                     </div>
                 </div>
 
-                <div class="boxBottum w-3/4 h-32 border-2 border-zinc-700 relative flex">
-                    <div class="boxBottum__left w-[20%] h-full bg-orange-500"></div>
+                <div class="boxBottum w-3/4 max-sm:h-20 h-32 border-2 border-zinc-700 relative flex">
+                    <div class="boxBottum__left  w-[20%] h-full bg-orange-500"></div>
                     <div class="boxBottum__center w-[60%] h-full"></div>
                     <div class="boxBottum__right w-[20%] h-full bg-orange-500"></div>
                 </div>
@@ -558,7 +558,7 @@
 
         <!-- case study -->
         <div data-color="salman"
-            class="case section w-full h-screen py-10 px-12 flex flex-col gap-6 items-start justify-start relative">
+            class="case section w-full min-h-screen py-10 px-12 flex flex-col gap-6 items-start justify-start relative">
             <div class="btn w-fit py-5 mt-6">
                 <div class="masker overflow-hidden">
                     <h1 class="text-[5vmax] font-['PPNue'] font-semibold inline-block">
@@ -567,31 +567,31 @@
                 </div>
             </div>
 
-            <div class="case__body w-full border-2 border-zinc-700 relative">
-                <div class="body__top w-full flex justify-between items-center">
-                    <div class="top__left w-[50%] p-10 flex items-start justify-start flex-col relative">
-                        <h1 class="text-[4.5vmax] leading-tight font-['PPNue2']">
+            <div class="case__body h-fit w-full border-2 border-zinc-700 relative">
+                <div class="body__top w-full max-sm:flex-col-reverse flex max-sm:justify-center justify-between items-center">
+                    <div class="top__left max-sm:w-full w-[50%] p-10 flex items-start  justify-start flex-col relative">
+                        <h1 class="text-[4vmax] max-sm:text-xl max-sm:font-semibold leading-tight font-['PPNue2']">
                             A Digital Platform to Unify Employee Health And Wellbeing Tools
                         </h1>
-                        <p class="text-xl mt-4">
+                        <p class="text-xl max-sm:text-lg mt-4">
                             Significo created a unified, user-centric platform that
                             streamlines health management and enhances employee well-being.
                         </p>
-                        <div class="btn w-fit uppercase px-10 py-5 border-[2px] border-[--dcyan] mt-6">
+                        <div class="btn w-fit uppercase max-sm:px-5 max-sm:py-2 px-10 py-5 border-[2px] border-[--dcyan] max-sm:mt-2 mt-6">
                             <div class="masker overflow-hidden">
-                                <span class="text-xl inline-block">learn more</span>
+                                <span class="text-xl max-sm:text-lg inline-block">learn more</span>
                             </div>
                         </div>
                     </div>
-                    <div class="top__right w-[40%] h-full flex items-center justify-center relative">
-                        <div class="imgContainer w-96 h-96 rounded-full overflow-hidden">
+                    <div class="top__right max-sm:w-10/12 max-sm:p-3 w-[40%] max-sm:h-36   h-full flex items-center justify-center relative">
+                        <div class="imgContainer max-sm:w-32  w-96 max-sm:h-36 h-96 rounded-full overflow-hidden">
                             <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="" />
                         </div>
                     </div>
                 </div>
 
-                <div class="body__Bottum w-full h-[15%] border-t-2 border-zinc-700 flex">
+                <div class="body__Bottum w-full max-sm:h-[10vh] h-[15vh] border-t-2 border-zinc-700 flex">
                     <div class="boxBottum__left w-[20%] h-full"></div>
                     <div class="boxBottum__center w-[60%] h-full border-x-2 border-zinc-700 relative"></div>
                     <div class="boxBottum__right w-[20%] h-full relative"></div>
@@ -601,9 +601,9 @@
         <!-- case study end -->
 
         <!-- explore page -->
-        <div data-color="black" class="explore section w-full h-[150vh] py-10 px-12 flex flex-col lg:flex-row  relative">
-            <div class="explore__left w-[40%] flex flex-col items-start justify-between">
-                <h1 class="text-2xl font-medium pt-40">
+        <div data-color="black" class="explore section w-full min-h-[150vh] py-10 px-12 flex flex-col lg:flex-row  relative">
+            <div class="explore__left max-sm:w-full w-[40%] flex flex-col items-start justify-between">
+                <h1 class="text-2xl max-sm:text-xl max-sm:font-normal font-medium pt-40 max-sm:p-12 ">
                     Stay up-to-date on the latest healthcare innovations and thought
                     leadership.
                 </h1>
@@ -620,19 +620,19 @@
             </div>
             <div class="explore__right relative flex flex-col lg:flex-row  items-center justify-evenly w-full font-['PPNue2']">
                 <div
-                    class="firstCon w-[30vmax] lg:w-[28rem] h-[60vh] lg:h-[100vh] relative border-2 border-zinc-700 rounded-full flex flex-col items-center justify-between pt-6 pb-16 lg:px-4 translate-y-32  lg:-rotate-12">
-                    <div class="imgContainer w-[90%] h-[40%] lg:w-96 lg:h-96 rounded-full overflow-hidden">
+                    class="firstCon w-[30vmax] lg:w-[28rem] h-[60vh] lg:h-[100vh] relative border-2 border-zinc-700 rounded-full flex flex-col items-center justify-between pt-6 pb-16 lg:px-4 translate-y-32  max-sm:-rotate-12">
+                    <div class="imgContainer max-sm:w-40 max-sm:h-40 w-[90%] h-[40%] lg:w-96 lg:h-96 rounded-full overflow-hidden">
                         <img class="bg-center"
                             src="https://images.unsplash.com/photo-1713557112617-e12d67bddc3a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="" />
                     </div>
-                    <h1 class="text-3xl text-center">
+                    <h1 class="text-3xl max-sm:text-xl max-sm:font-normal text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                         iure assumenda ratione perspiciatis? Fuga, exercitationem.
                     </h1>
                     <div class="btn w-fit py-3 px-3 rounded-lg bg-purple-500">
                         <div class="masker overflow-hidden">
-                            <h1 class="text-xl font-['PPNue'] font-semibold inline-block">
+                            <h1 class="text-xl max-sm:text-sm max-sm:font-medium font-['PPNue'] font-semibold inline-block">
                                 through leadership
                             </h1>
                         </div>
@@ -640,19 +640,19 @@
                 </div>
 
                 <div
-                    class="SecondCon w-[30vmax] lg:w-[28rem] h-[60vh] lg:h-[100vh] border-2 border-zinc-700 rounded-full flex flex-col items-center justify-between pb-6 pt-16 lg:px-4 translate-y-80  lg:-rotate-12">
+                    class="SecondCon w-[30vmax] lg:w-[28rem] h-[60vh] lg:h-[100vh] border-2 border-zinc-700 rounded-full flex flex-col items-center justify-between pb-6 pt-16 lg:px-4 translate-y-80  max-sm:-rotate-12">
                     <div class="btn w-fit py-3 px-3 rounded-lg bg-purple-500">
                         <div class="masker overflow-hidden">
-                            <h1 class="text-xl font-['PPNue'] font-semibold inline-block">
+                            <h1 class="text-xl max-sm:text-sm max-sm:font-medium  font-['PPNue'] font-semibold inline-block">
                                 through leadership
                             </h1>
                         </div>
                     </div>
-                    <h1 class="text-3xl text-center">
+                    <h1 class="text-3xl max-sm:text-xl max-sm:font-normal  text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                         iure assumenda ratione perspiciatis? Fuga, exercitationem.
                     </h1>
-                    <div class="imgContainer w-[90%] h-[40%] lg:w-96 lg:h-96 rounded-full overflow-hidden">
+                    <div class="imgContainer max-sm:w-40 max-sm:h-40 w-[90%] h-[40%] lg:w-96 lg:h-96 rounded-full overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1725012858121-9b336157bea4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="" />
                     </div>
@@ -664,18 +664,18 @@
         <!-- letsbuild page -->
         <div data-color="cyan"
             class="build section w-full h-[50vh] flex gap-4 relative items-center justify-start px-12">
-            <div class="build__left w-3/5 h-full flex flex-col items-start justify-center">
-                <h1 class="text-7xl font-['PPNue'] font-semibold">
+            <div class="build__left w-3/5 max-sm:w-1/2 h-full flex flex-col items-start justify-center">
+                <h1 class="text-7xl max-sm:text-3xl font-['PPNue'] font-semibold">
                     Let's build a better future
                 </h1>
-                <div class="btn w-fit uppercase px-10 py-5 border-[2px] border-[--dcyan] mt-8">
+                <div class="btn w-fit uppercase max-sm:px-5 max-sm:py-2 px-10 py-5 border-[2px] border-[--dcyan] mt-8">
                     <div class="masker overflow-hidden">
-                        <span class="text-xl inline-block">Let's go</span>
+                        <span class="text-xl max-sm:text-lg inline-block">Let's go</span>
                     </div>
                 </div>
             </div>
-            <div class="build__right w-1/3">
-                <p class="text-2xl">
+            <div class="build__right w-1/3 max-sm:w-1/2">
+                <p class="text-2xl max-sm:text-lg">
                     Find out how Significo's healthcare technology expertise can take
                     your digital experience to the next level. Solutions
                 </p>
@@ -684,38 +684,38 @@
         <!-- letsbuild page end -->
 
         <!-- footer -->
-        <div data-color="black" class="footer section w-full lg:h-[70vh] bg-black flex flex-col px-12">
+        <div data-color="black" class="footer section w-full lg:h-[70vh] bg-black flex flex-wrap px-12">
             <div
-                class="footer__p1 w-full lg:h-[50vh] flex flex-col gap-3 lg:flex-row justify-between border-b-2 border-zinc-400 text-white py-32 relative">
-                <div class="p1__col1 w-[20%] h-[50%] flex flex-col justify-start items-start">
-                    <h4 class="text-2xl font-semibold">Solutions</h4>
-                    <h4 class="text-2xl font-semibold">Insurance Solutions</h4>
+                class="footer__p1 w-full lg:h-[50vh] max-sm:flex-row max-sm:flex-wrap flex flex-col gap-3 lg:flex-row justify-between border-b-2 border-zinc-400 text-white py-32 relative">
+                <div class="p1__col1 max-sm:w-1/2 w-[20%] h-[50%] flex flex-col justify-start items-start">
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Solutions</h4>
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Insurance Solutions</h4>
                 </div>
-                <div class="p1__col2 w-[20%] h-[50%] flex flex-col justify-start items-start">
-                    <h4 class="text-2xl font-semibold">Insights</h4>
-                    <h4 class="text-2xl font-semibold">Case Studies</h4>
-                    <h4 class="text-2xl font-semibold">Thought Leadership</h4>
-                    <h4 class="text-2xl font-semibold">News</h4>
-                    <h4 class="text-2xl font-semibold">Resources</h4>
+                <div class="p1__col2  w-[20%] h-[50%] flex flex-col justify-start items-start">
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Insights</h4>
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Case Studies</h4>
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Thought Leadership</h4>
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">News</h4>
+                    <h4 class="text-2xl max-sm:text-lg max-sm:font-light font-semibold">Resources</h4>
                 </div>
-                <div class="p1__col3 w-[20%] h-[50%] flex flex-col justify-start items-start">
+                <div class="p1__col3 max-sm:w-3/12 w-[20%] h-[50%] flex flex-col justify-start items-start">
                     <h4 class="text-2xl font-semibold">About</h4>
                     <h4 class="text-2xl font-semibold">Team</h4>
                     <h4 class="text-2xl font-semibold">careers</h4>
                 </div>
                 <div class="p1__col4 w-[20%] h-[50%] flex flex-col justify-start items-start">
-                    <div class="btn w-fit uppercase px-10 py-5 border-[2px] border-[--dcyan] mb-8">
+                    <div class="btn w-fit uppercase max-sm:px-3 max-sm:py-1 px-10 py-5 border-[2px] border-[--dcyan] mb-8">
                         <div class="masker overflow-hidden">
-                            <span class="text-xl inline-block">Contact Us</span>
+                            <span class="text-xl max-sm:text-sm inline-block">Contact Us</span>
                         </div>
                     </div>
-                    <h4 class="text-2xl font-semibold">Austin, Texas</h4>
-                    <h4 class="text-2xl font-semibold">Berlin, Germany</h4>
+                    <h4 class="text-2xl max-sm:text-lg font-semibold">Austin, Texas</h4>
+                    <h4 class="text-2xl max-sm:text-lg font-semibold">Berlin, Germany</h4>
                 </div>
             </div>
             <div class="footer__p2 w-full"></div>
             <div class="footer__p3 w-full">
-                <p class="text-white pt-3">© 2024 Significo. All rights reserved.</p>
+                <p class="text-white pt-3 max-sm:text-center">© 2024 Significo. All rights reserved.</p>
             </div>
         </div>
         <!-- footer end -->
