@@ -1,28 +1,56 @@
-# Significo Frontend Website - Tailwind CSS
+# Significo Frontend Website
 
-Welcome to the **Significo Frontend Website** repository, developed using **Tailwind CSS**.
+An expressive **frontend landing page experience** inspired by Significo and built with **HTML, Tailwind CSS, and JavaScript**.
 
-[Website Demo](https://aditya-deokar.github.io/significo-frontend-website-tailwind-css-/)
+## Live Preview
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
+[View Website Demo](https://aditya-deokar.github.io/significo-frontend-website-tailwind-css-/)
 
+## Project Snapshot
 
-## Introduction
+<img src="https://github.com/user-attachments/assets/31c640e3-4c99-49cb-9adb-cb2a434fca42" alt="Significo website preview" />
 
-This is a demo of the **Significo Frontend Website** built using **Tailwind CSS**. The repository includes responsive design, clean UI components, and a modern web development approach.
+## About the Project
 
-## Features
+This project focuses on a bold, people-first visual style with:
 
-- Built with Tailwind CSS
-- Clean and modern UI
-- Optimized for performance
+- striking typography
+- modern section-based storytelling
+- responsive layout techniques
+- clean Tailwind-powered styling
+- interactive frontend presentation
 
-## Technologies Used
+It is designed to showcase how a brand-forward website can feel **creative, elegant, and human** while still staying lightweight and fast.
+
+## Built With
 
 - HTML5
 - Tailwind CSS
 - JavaScript
+- Vite
 
+## Why This Project Stands Out
+
+- Creative visual hierarchy
+- Smooth and modern UI composition
+- Reusable styling approach
+- Strong emphasis on readability and impact
+
+## Local Setup
+
+```bash
+npm install
+npm test
+```
+
+## Repository Contents
+
+- `/index.html` — main page structure
+- `/style.css` and `/app.css` — custom styling layers
+- `/script.js` — interactive behavior
+- `/img` — project assets
+- `/fonts` — custom typography resources
+
+## Final Note
+
+If you enjoy visually rich frontend projects with clean structure and modern styling, this project is a great starting point for inspiration.
