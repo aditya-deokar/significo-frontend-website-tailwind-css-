@@ -40,7 +40,7 @@ It is designed to showcase how a brand-forward website can feel **creative, eleg
 
 ```bash
 npm install
-npm test
+npx vite
 ```
 
 ## Repository Contents
